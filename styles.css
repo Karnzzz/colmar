@@ -1,10 +1,6 @@
-.header{
-    display:flex;
-    align-items:center;
-}
-#logo{
-    display: flex;
-    align-items: center;
+*{
+    margin: 0;
+    padding:0;
 }
 .navbar{
     display:flex;
@@ -12,4 +8,40 @@
     justify-content: space-between;
     padding:0 24px;
     height: 64px;
+    background-color: #fff;  
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    /* justify-content: flex-start; */
+}
+.logo img{
+    height: 50px;
+    
+}
+#colmar{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+#academy{
+    font-size: 32px;
+    color: gray;
+}
+.nav-menu{
+    display:flex;
+    gap:16px;
+    /* margin-left: auto; */
+    list-style: none;
+    /* justify-content: flex-end; */
+    
+}
+.nav-menu a{
+    /* margin-left:20px; */
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
 }
